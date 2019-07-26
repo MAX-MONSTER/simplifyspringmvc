@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mvconfig>
+    <scanPath value="com.myspringmvc"/>
+    <Interceptors class="com.myspringmvc.bean.SessionInterceptor"/>
+    <HandMappings class="com.myspringmvc.config.UrlHandlerMapping"/>
+    <HanderAdaptersMapping  class="com.myspringmvc.config.UrlHanderAdapterMapping"/>
+</Mvconfig>
